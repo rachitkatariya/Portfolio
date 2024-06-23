@@ -1,49 +1,3 @@
-.leetcode-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    background-color: #fff;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
-.coding-item {
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-
-.coding-icon {
-    width: 100px;
-    height: 100px;
-    transition: transform 0.3s ease;
-}
-
-.coding-text {
-    margin-left: 10px;
-    opacity: 0;
-    transform: translateX(10px);
-    transition: all 0.3s ease;
-    text-decoration: none;
-    color: #333;
-}
-
-.coding-item:hover .coding-icon {
-    transform: translateX(-10px);
-}
-
-.coding-item:hover .coding-text {
-    opacity: 1;
-    transform: translateX(0);
-    text-decoration: none;
-    color: #333;
-}
-
-/* Existing styles for other elements */
 * {
     margin: 0;
     padding: 0;
@@ -291,13 +245,40 @@ body {
     }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 300px) {
+
+    .container {
+        width: 100vw;
+    }
+
+    .header p {
+        font-size: 0.75em;
+        text-align: center;
+    }
+
     .content {
         flex-direction: row;
     }
 
     .image-section {
-        min-width: 300px; 
+        min-width: 200px; 
+    }
+
+    .image-section img {
+    align-items: center;
+    margin-top: 10px;
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+    }
+
+    .info-section{
+        flex: 1;
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .social-links {
