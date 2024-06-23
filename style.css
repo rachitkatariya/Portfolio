@@ -246,7 +246,9 @@ body {
     }
 
     .header p {
+        margin-top: 10px;
         font-size: 1em;
+        text-align: center;
     }
 
     .image-section img {
@@ -311,7 +313,9 @@ body {
     }
 
     .header p {
+        margin-top: 10px;
         font-size: 1em;
+        text-align: center;
     }
 
     .image-caption {
@@ -331,6 +335,7 @@ body {
     }
 
     .header p {
+        margin-top: 5px;
         font-size: 0.75em;
         text-align: center;
     }
